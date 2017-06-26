@@ -1,7 +1,7 @@
 # Setup
 
 ## Prerequisites
-* Anaconda installation
+* [Anaconda](https://www.continuum.io/downloads) installation
 
 ## Create a "statistics" oriented env
 * `conda create -n stat numpy pandas rpy2 matplotlib`

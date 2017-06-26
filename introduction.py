@@ -23,8 +23,8 @@ for x in ['age', 'year']:
 wage['education'] = wage.education.astype('category')  # Does have correct ordering
 
 # Plot all 5 education levels on the same axes
-group_ed = wage.pivot(columns='education', values='wage')
-group_ed.boxplot(rot=45)
+ed = wage.pivot(columns='education', values='wage')
+ed.boxplot(rot=45)
 fig = plt.gcf()
 fig.set_size_inches(4,5)
 plt.tight_layout()
