@@ -3,7 +3,7 @@
 ## Prerequisites
 * Anaconda installation
 
-## Create an "statistics" oriented env
+## Create a "statistics" oriented env
 * `conda create -n stat numpy pandas rpy2 matplotlib`
 * `source activate stat`
 * `R`, start interactive R instance
